@@ -32,6 +32,7 @@ def work(size,layer,iters):
     except:
         print(mat,y_test.shape[0])
     #print(type(classification_report(y_test,predictions)))
+#the code below is just used for multiple approaches to find best solution
 layers=[(8,8,8,8),(10,10,10,10),(9,9,9,9),(9,9,9),(8,8,8),(10,10,10)]
 test_size=[0.1,0.15,0.2,0.25,0.3,0.35]
 iteration=[500,600,700,800,900,1000,1100]
