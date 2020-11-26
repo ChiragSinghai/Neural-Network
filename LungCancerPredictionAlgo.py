@@ -47,7 +47,7 @@ for i in layers:
             data.loc[count]=[j,k,len(i),acc]
             count+=1
 print(data)
-data.to_csv('Best_Solutions.xlsx')
+data.to_excel('Best_Solutions.xlsx')
             
             
 print(count)
